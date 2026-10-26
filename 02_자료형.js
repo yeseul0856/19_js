@@ -107,18 +107,30 @@
 // console.log(str);
 // console.log(typeof str);
 
-let varA;
-let varB = null;
-let varC = true;
+// let varA;
+// let varB = null;
+// let varC = true;
 
-console.log(typeof varA);
-console.log(typeof varB);
-console.log(typeof varC);
+// console.log(typeof varA);
+// console.log(typeof varB);
+// console.log(typeof varC);
 
-let strA = String(varA);
-let strB = String(varB);
-let strC = String(varC);
+// let strA = String(varA);
+// let strB = String(varB);
+// let strC = String(varC);
 
-console.log(typeof strA);
-console.log(typeof strB);
-console.log(typeof strC);
+// console.log(typeof strA);
+// console.log(typeof strB);
+// console.log(typeof strC);
+
+let varA = "하이";
+let varB = 0;
+let varC = "";
+
+let boolA = Boolean(varA);
+let boolB = Boolean(varB);
+let boolC = Boolean(varC);
+
+console.log(boolA);
+console.log(boolB);
+console.log(boolC);
