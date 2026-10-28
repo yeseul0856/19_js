@@ -81,6 +81,6 @@
 // console.log(calcA() || calcB());
 
 // 앞이 truthy한 값이면 뒤에까지 안가고 true 가 된다
-const name = "이정환" || undefined;
+// const name = "이정환" || undefined;
 
-console.log(name);
+// console.log(name);

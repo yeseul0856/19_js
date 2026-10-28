@@ -139,6 +139,8 @@
 // repeat(5, origin);
 
 // 이게 콜백함수에 필요한 이유는 나중에 리액트를 하면서 보도록 하겠습니다.
+// 콜백함수 callBack이름을 callBack이라고 안하고 a라고 해도된다
+// 콜랙 함수는 나중에 실행하라고 넘겨준 함수
 
 // function repeat(count, callBack) {
 //   for (let idx = 0; idx < count; idx++) {
@@ -186,3 +188,10 @@ confirm(
 // } else {
 //   onNo();
 // }
+
+// let isConfirm = true;
+
+// confirm (
+//   () => console.log("승인")
+//   () => console.log("거부")
+// )
